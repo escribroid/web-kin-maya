@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <br />
+    <label for="inFecha"
+      >Entra tu fecha:
+      <input
+        id="fecha"
+        type="date"
+        name="inFecha"
+        min="0000-01-01"
+        required
+        pattern="\d{4}-\d{2}-\d{2}"
+    /></label>
+    <br />
+    <br />
+    <input id="kin" type="text" />
+    <br />
+    <br />
+    <button type="button" onclick="prueba()">BOTON</button>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
